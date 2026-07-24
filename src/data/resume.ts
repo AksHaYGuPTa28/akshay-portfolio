@@ -149,7 +149,7 @@ export const projects = [
       "Designed prompt templates and grounding strategies (context injection, source citations, guardrails) to reduce hallucinations and improve factual accuracy of generated answers.",
       "Built a streaming chat interface in React/Next.js with function calling and structured JSON outputs, cutting manual document search time for end users.",
     ],
-    github: "https://github.com/your-handle",
+    github: "https://github.com/AksHaYGuPTa28/rag-doc-qa",
   },
   {
     name: "Capacity Management Platform",
@@ -160,7 +160,7 @@ export const projects = [
       "Built an executive dashboard (Next.js, Recharts) with 6+ visualizations: capacity vs. demand by team, utilization distribution, allocation heat maps, and a 6-month forecast.",
       "Implemented a deterministic natural-language \"Ask AI\" assistant answering operational questions (availability, skill matches, overallocation, delivery feasibility) from live Prisma queries.",
     ],
-    github: "https://github.com/your-handle",
+    github: "https://github.com/AksHaYGuPTa28/Capacity-Management",
   },
   {
     name: "Serverless To-Do REST API",
@@ -170,7 +170,7 @@ export const projects = [
       "Built a Lambda-compatible serverless REST API sharing a single handler between local Express development and real AWS API Gateway/Lambda deployment, with zero business-logic duplication.",
       "Designed a layered architecture (handler → service → repository) with Zod validation and full CRUD against DynamoDB; validated with unit tests (mocked repository) and integration tests (real DynamoDB Local).",
     ],
-    github: "https://github.com/your-handle",
+    github: "https://github.com/AksHaYGuPTa28/todo-api-serverless",
   },
 ];
 
