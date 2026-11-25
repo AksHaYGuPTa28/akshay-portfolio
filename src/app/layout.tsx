@@ -13,9 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Akshay Gupta — AI Engineer & Full-Stack Software Engineer",
+  title: "Akshay Gupta — AI Full Stack Lead",
   description:
-    "AI Engineer and Senior Software Engineer with 5+ years building scalable web applications, RAG pipelines, and LLM-integrated products.",
+    "AI Full Stack Lead and AI Engineer with 6+ years building scalable web applications, data platforms, RAG pipelines, and LLM-integrated products.",
+  keywords: ["AI Engineer", "AI Full Stack Lead", "Full-Stack Engineer", "RAG", "LLM", "AWS", "Snowflake"],
 };
 
 export default function RootLayout({

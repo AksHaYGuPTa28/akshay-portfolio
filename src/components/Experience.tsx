@@ -23,6 +23,10 @@ export default function Experience() {
                 {job.company} <span className="text-muted">— {job.location}</span>
               </p>
 
+              {job.summary && (
+                <p className="mb-3 text-sm leading-relaxed text-muted">{job.summary}</p>
+              )}
+
               <ul className="space-y-2">
                 {job.highlights.map((point) => (
                   <li key={point} className="flex gap-3 text-sm leading-relaxed text-muted">

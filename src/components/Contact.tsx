@@ -27,12 +27,6 @@ export default function Contact() {
           >
             {profile.email}
           </a>
-          <a
-            href={`tel:${profile.phone}`}
-            className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
-          >
-            {profile.phone}
-          </a>
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-6 text-sm text-muted">

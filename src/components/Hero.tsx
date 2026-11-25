@@ -60,10 +60,6 @@ export default function Hero() {
             <a href={`mailto:${profile.email}`} className="transition-colors hover:text-accent">
               {profile.email}
             </a>
-            <span className="text-border">|</span>
-            <a href={`tel:${profile.phone}`} className="transition-colors hover:text-accent">
-              {profile.phone}
-            </a>
           </div>
         </div>
 

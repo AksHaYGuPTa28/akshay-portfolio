@@ -43,15 +43,17 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-accent-2"
-                >
-                  View on GitHub
-                  <span aria-hidden>→</span>
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-accent-2"
+                  >
+                    View on GitHub
+                    <span aria-hidden>→</span>
+                  </a>
+                )}
               </div>
             </div>
           ))}

@@ -21,9 +21,10 @@ export default function About() {
               problems.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted">
-              Currently a Senior Software Engineer at Coforge, working on IndiGo Airlines&apos;
-              hotel booking platform, previously shipped products at VoerEir, Loopin HQ, and
-              Videtorrium India.
+              Currently AI Full Stack Lead (contract) at VITA Solutions, leading the delivery
+              of a cloud data platform on AWS Serverless, Node.js and Snowflake. Before this I
+              was a Senior Software Engineer leading a team of 4, and earlier shipped
+              products at VoerEir, Loopin HQ, and Videtorrium India.
             </p>
           </div>
 
