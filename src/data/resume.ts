@@ -6,7 +6,7 @@ export const profile = {
   github: "https://github.com/AksHaYGuPTa28",
   location: "India",
   summary:
-    "AI Full Stack Lead with 6+ years of experience building scalable, production-grade web applications, APIs, data platforms and AI-powered systems. Currently leading the design and delivery of a cloud data platform on AWS Serverless, Node.js and Snowflake for a large enterprise client in the travel and transport sector. Experienced designing and shipping RAG pipelines, LLM-integrated applications and agentic tooling with the OpenAI, Claude and Gemini APIs, on a strong full-stack foundation in React, Node.js and microfrontend architecture. Uses AI coding agents (Claude Code, Cursor, GitHub Copilot) daily to accelerate delivery, improve code quality and prototype rapidly across the stack.",
+    "AI Full Stack Lead with 6+ years of experience building scalable, production-grade web applications, APIs, data platforms and AI-powered systems. Currently at VITA Solutions, leading engineering on a flight and cargo carbon emissions data platform for a global aviation industry body, on AWS Serverless, Node.js and Snowflake. Experienced designing and shipping RAG pipelines, LLM-integrated applications and agentic tooling with the OpenAI, Claude and Gemini APIs, on a strong full-stack foundation in React, Node.js and microfrontend architecture. Uses AI coding agents (Claude Code, Cursor, GitHub Copilot) daily to accelerate delivery, improve code quality and prototype rapidly across the stack.",
 };
 
 export const stats = [
@@ -87,6 +87,7 @@ export const skillGroups = [
       "Snowflake",
       "Data Pipelines",
       "Serverless Data Engineering",
+      "SAF & Scope 3 Emissions Data",
       "PostgreSQL",
       "DynamoDB",
       "Prisma",
@@ -116,18 +117,18 @@ export const skillGroups = [
 
 export const experience = [
   {
-    role: "AI Full Stack Lead (Contract)",
-    company: "VITA Solutions",
+    role: "AI Full Stack Lead",
+    company: "VITA Solutions (Client: IATA)",
     location: "Geneva, Switzerland (Remote)",
     period: "Aug 2026 – Present",
     summary:
-      "Leading the design and delivery of a data platform for a large enterprise client in the travel and transport sector.",
+      "Leading engineering on a flight and cargo carbon emissions data platform for a global aviation industry body, used by airlines, cargo carriers and corporate travel buyers.",
     highlights: [
-      "Build and maintain cloud data pipelines and serverless services in Node.js on AWS, using Snowflake as the data warehouse.",
-      "Design APIs and scheduled file deliveries that give customers reliable, versioned data in the format they need.",
-      "Turn business requirements into configurable features, so each customer can choose their own reporting options.",
-      "Own code quality end to end: unit tests, pull request reviews, staging tests and production releases.",
-      "Work with product, data and partner teams to plan, estimate and ship on schedule.",
+      "Build and run the Node.js / AWS Lambda pipelines that read from Snowflake and publish monthly and weekly emissions flat files for passenger and cargo flights.",
+      "Added a SAF disclosure file that shows, flight by flight, emissions before and after sustainable aviation fuel, so customers can see the effect of SAF.",
+      "Built CO2 Mini, a configurable customer report where each customer picks its own frequency, regions, haul definitions (IATA, DEFRA, GLEC, ETW) and airline coverage. It is delivered through a secured API.",
+      "Added data versioning to the flat files so customers can trace which methodology produced each figure.",
+      "Work with product, data and partner teams to turn requirements into tested releases, and review pull requests and test in a staging environment before deploy.",
     ],
   },
   {

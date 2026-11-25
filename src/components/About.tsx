@@ -21,8 +21,9 @@ export default function About() {
               problems.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted">
-              Currently AI Full Stack Lead (contract) at VITA Solutions, leading the delivery
-              of a cloud data platform on AWS Serverless, Node.js and Snowflake. Before this I
+              Currently AI Full Stack Lead at VITA Solutions, leading engineering on a flight
+              and cargo carbon emissions data platform for a global aviation industry body, on
+              AWS Serverless, Node.js and Snowflake. Before this I
               was a Senior Software Engineer leading a team of 4, and earlier shipped
               products at VoerEir, Loopin HQ, and Videtorrium India.
             </p>
